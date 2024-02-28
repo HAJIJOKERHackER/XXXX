@@ -388,34 +388,7 @@ def approval():
   try:
     httpCaht = get_response('https://raw.githubusercontent.com/HAJIJOKERHackER/afghan/main/afghan.txt')
     if realid in httpCaht:
-      #print("\3[1;32m YOUR KEY IS APPROVED.")
-      #msg = str(os.geteuid())
-      pass
-    else:
-      print("\33[1;32m YOUR KEY :\x1b[38;5;43m "+id)
-      print('\33[1;37m ====================================================')
-      print("\33[1;37m ====================================================")
-      print("\33[1;36m NOTE:- THIS TOOL IS PAID \n YOU HAVE TO PAY FOR APPROVAL FIRST .")
-      print('\33[1;37m ====================================================')
-      print (" \33[37;41m\t WELCOME TO USMIII TOOL AND ENJOY \33[0;m")
-      print('\33[1;37m ====================================================')
-
-      print ("\33[1;37m SEND 500 PKR (FOR 15 DAYS APPROVEL)")
-      print('\33[1;37m ====================================================')
-      print ("\33[1;37m SEND 3 $ usd (FOR 15 DAYS APPROVEL)")
-      print('\33[1;37m ====================================================')
-      print ("\33[1;37m SEND 700 PKR (FOR 30 DAYS APPROVEL)")
-      print('\33[1;37m ====================================================')
-      print ("\33[1;37m SEND 5 $ usd (FOR 30 DAYS APPROVEL)")
-      print('\33[1;37m ====================================================')
-      print ("\33[1;37m Easy Paisa (0707266012)")
-      print ("\33[1;37m Jazz Cash  (0707266012)")
-      print ("\33[37;41m\t INSHALLAH DAILY LUSH UPDATES \33[0;m")
-      input(' IIF YOU ARE FREE USER THEN DONT PRESS ENTER')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('xdg-open https://wa.me/message/93707266012'+tks)
-      sys.exit()
-      #time.sleep(1)
-      #approval()
+      
   except Exception as error:
     print(error)                        
 
